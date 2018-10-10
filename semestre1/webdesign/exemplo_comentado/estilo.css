@@ -1,0 +1,78 @@
+body/* seletor para formatar o corpo da página*/
+{
+	margin:0;/* por padrão a pagina tem uma margem, para tirá-la, deve-se colocar valor zero*/
+}
+
+header/* seletor para formatar o cabeçalho da página*/
+{
+	margin-top:-18px;/* o valor negativo foi colocado para encostar o cabecalho no topo da pagina*/
+	height:150px;/* altura do cabeçalho na vertical*/
+	background-color: yellow;/* cor de fundo do cabeçalho*/
+}
+.imagem > img/* na div da imagem tem uma classe, para formatar somente a imagem é necessario colocar o sinal > que indica que a tag img é filha da tag onde tem a classe .imagem (no html é assim :<div class="imagem">)*/
+{
+	margin-left:25px;/* aumenta a margem direita da imagem*/
+	margin-top: 25px;/*aumenta a margem esquerda da imagem*/
+}
+img/**/
+{
+	float:left;	/* essa propriedade permite que a imagem flutue a direita dentro do cabeçalho*/
+	width:200px;/* largura da imagem*/
+	height:100px;/* altura da imagem*/
+}
+.item_do_menu/* classe para formatar o cada menu*/
+{
+
+	display:inline;/* permite colocar os menus lado a lado, em uma única linha*/
+	float:right;/* permite que os menus flutuem a direita , ao lado da imagem*/
+	margin:30px;/* valor de margem de cada menu, deve-se experimentar valores ate atingira a visualização desejada*/
+	background-color:#00FF00;/* cor de fundo verde de cada caixa do menu */
+	height:40px;/* altura de cada menu*/
+	width:105px;/* largura de cada menu*/
+	padding-left:25px;/* espaço esquerdo de cada menu dentro da caixa, usado para alinhar o texto dentro da caixa*/
+	padding-top:18px;/* espaço direito de cada menu dentro da caixa, usado para alinhar o texto dentro da caixa*/
+	text-transform:uppercase;/*essa propriedade permite colocar as letras em caixa alta*/
+}
+.item_do_menu:hover/*essa propriedade permite colocar um efeito para mudar a cor do menu*/
+{
+	transition: background-color 1s;/* o efeito mudara a cor de fundo do menu com duração de 1 segundo*/
+	background-color:royalblue;/* ao final da transição a cor de fundo ficara azul*/
+}
+.link/**/
+{
+	text-decoration:none;/* propriedade para retirar o sublinhado do link*/
+	color:green;/* cor da fonte dos menus*/
+	font-weight:bold;/* coloca negrito na fonte*/
+}
+.texto_foto /*formatação entre do texto e da imagem*/
+{
+	padding-top:80px;/*espaço superior (antes do texto)*/
+	text-align:center;/*alinhamento do texto centralizado*/
+	background-color:lavender;/* cor de fundo */
+	height:500px;/*tamanho da parte onde está o texto e a imagem*/
+}
+.hino/*formatação do texto*/
+{
+	font-size:40px;/* tamanho da fonte*/
+	font-family:monospace;/* estilo da fonte (tipo de fonte)*/
+	font-weight:bold;/* fonte em negrito*/
+	
+}
+.imagem_sol > img/*fomatação da imagem*/
+
+{ 
+	padding-top:80px;/*espaço entre o texto e a imagem*/
+	margin-left:28%;/*margem esquerda*/
+	width:600px;/*largura da imagem*/
+	height:300px;/*algura da imagem (tamanho na vertical)*/
+}
+.rodapé/*formatação do rodapé, a parte mais inferior da página*/
+
+{
+	font-size:20px;/* tamanho da letra*/
+	font-weight:bold;/*negrito na letra*/
+	height: 100px;/*altura do cabeçalho (na vertical)*/
+	background-color:green;/*cor de fundo do rodapé (verde)*/
+	text-align:center;/*alinhamento do texto no rodapé*/
+	padding-top: 60px;/*espaço superior do texto*/
+}

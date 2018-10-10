@@ -1,0 +1,72 @@
+header img
+{
+	margin-top:25px;
+	margin-left:50px;
+}
+.container
+{
+	width:1000px;
+	padding-left:15px;
+	padding-right:15px;
+	margin:0 auto;
+	
+}
+.layout_cabecalho
+{
+	height:160px;
+	/*line-height:60px;*/
+	border-bottom:solid 15px black;
+	background-color:white;
+	top:0;
+}
+.navegacao
+{
+	display:block;
+}
+.navegacao_menu
+{
+	float:right;
+}
+.menu_item
+{
+	display:inline-block;
+	width:100px;
+	margin:30px;
+	height:40px;
+	text-align:center;	
+	padding:10px;
+	font-size:15px;
+	
+	
+	text-transform: uppercase;
+	background-color: #808080;
+	
+}
+.menu_item:hover
+{
+	transition:background-color 4s;
+	background-color:#DCDCDC;
+}
+a
+{
+	
+	text-decoration:none;
+	color:black;
+
+}
+a:hover
+{
+	transition:color 4s;
+	color:white;
+}
+.link_m2:visited
+{
+	color:green;
+}
+
+.botao
+{
+	position:absolute;
+	cursor:pointer;
+	margin-left:1px;
+}

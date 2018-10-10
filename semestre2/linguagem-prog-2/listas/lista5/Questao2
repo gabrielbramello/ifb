@@ -1,0 +1,9 @@
+Questão 2
+
+a(x) O valor de x[24] é 0. --> O valor de x[24] é 0 pois não houve inicialização do vetor. Quando não há inicialização num vetor o valor padrão de cada elemento do vetor é 0.
+
+b( ) O valor de x[24] é indefinido.
+c( ) O valor de x[25] é 0.
+d( ) O valor de x[0] é null.
+e( ) O valor de x[0] é 1.
+f( ) O valor de x.length é 25.

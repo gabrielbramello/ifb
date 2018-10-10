@@ -1,0 +1,89 @@
+<!--
+Aluno: Gabriel Brandão de Mello
+Curso: Desenvolvimento de sistemas
+Turma: A
+-->
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+	<head>
+		<meta charset="UTF-8"/>
+		<title>Formulário e Tabela</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+
+	<body>
+		<h1>Formulário e Tabela</h1>
+
+		<form>
+    		<fieldset id="dadosPessoais"><legend>Dados Pesssoais</legend>
+				<label>Nome</label>
+					<input class="campoTexto" type="text" name="nome" size="45">
+				<label>Data Nascimento</label> 
+					<input type="date" name="datanasc">
+				<label>Estado Civil</label>
+					<select name="estadociv">
+						<option value="cas">Casado(a)
+						<option value="sol">Solteiro(a)
+						<option value="viu">Viúvo(a)
+						<option value="sep">Separado(a)
+						<option value="divor">Divorciado(a)
+					</select>
+					
+				<label>Naturalidade </label>
+					<input class="campoTexto" type="text" name="naturalide" size="45"> 
+					
+				<label>Nacionalidade</label>
+					<select name="nacio">
+					   <option value="bras">Brasileiro
+					   <option value="estrang">Estrangeiro
+					   <option value="Natu">Naturalizado
+					</select>   
+					
+				<label>Sexo</label>
+					<input type="radio" name="sexo" value="masc">Masculino<br/>
+					<input type="radio" name="sexo" value="fem">Feminino<br/><br/>
+					
+				<label>E-mail</label>
+					<input class="campoTexto" type="text" name="mail" size="45">
+					
+
+				<label>CPF</label>
+					<input class="campoTexto" type="text" name="cpf" size="20"> RG <input class="campoTexto" type="text" name="rg" > 
+					
+			</fieldset>
+
+			<fieldset><legend>Filiação</legend>
+				<label>Nome do Pai</label> 
+					<input class="campoTexto" type="text" name="nomepai" size="20"> 
+					
+				<label>Nome da Mãe </label>
+					<input class="campoTexto" type="text" name="nomemae" size="20"> 
+			</fieldset>
+			
+
+			<fieldset><legend>Dados Acadêmicos</legend>
+				<label class="dadosAcademicos">Escolaridade</label>
+					<input type="checkbox">Educação Infantil<br/>
+					<input type="checkbox">Ensino Fundamental<br/>
+					<input type="checkbox">Ensino Médio<br/>
+					<input type="checkbox">Ensino Superior<br/><br/>
+				
+				<label class="dadosAcademicos">Instituição onde estuda</label>
+					<input type="radio" name="inst" value="unb">UNB<br/>
+					<input type="radio" name="inst" value="ifb">IFB<br/>
+					<input type="radio" name="inst" value="iesb">IESB<br/>
+					<input type="radio" name="inst" value="ucb">UCB<br/>
+				</br>
+			</fieldset>
+			<fieldset>
+				<label>Interesses</label>
+				<textarea name="interes" cols="60" rows="5"></textarea>
+			</fieldset>
+
+			<input type="reset" value="Limpar Campos">
+			<input type="submit" value="Enviar">
+
+		</form>
+	</body>
+</html>

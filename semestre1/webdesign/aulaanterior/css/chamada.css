@@ -1,0 +1,45 @@
+.layout_chamada
+{
+	font-size: 16px; 
+    text-align: center;
+	padding: 50px 0;
+	margin-top: 0px;
+
+	background-color: green;
+
+}
+
+.chamada_titulo {
+  margin: 0;
+  color: #fff;
+  font-size: 50px;
+  line-height: 1px;
+  text-shadow: 1px 3px #313131;
+}
+
+.chamada_subtitulo {
+  margin: 60px ;
+  color: #fff;
+  font-size: 40px;
+}
+
+.chamada_acao {
+
+  font-size: 30px;
+  background-color:red;
+  width:300px;
+  margin:0 auto;
+  padding-top:28px;
+  height:100px;
+  border-radius:15px;
+}
+.chamada_acao:hover
+{
+	transition:background-color 4s;
+	background-color:#DCDCDC;
+}
+.cor
+{
+	color:white;
+}
+

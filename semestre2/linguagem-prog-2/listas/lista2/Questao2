@@ -1,0 +1,7 @@
+Questãoo 2: [1.0 ponto] Quais dos tipos a seguir fazem parte da linguagem Java (São tipos primitivos, isto é, são tipos válidos dentro da própria linguagem, constituindo palavras-chaves usadas na hora de declarar uma vari´avel)?
+
+Resposta:
+
+c(x)short
+e(x)double
+f(x)boolean

@@ -1,0 +1,44 @@
+Questão 2)
+
+a( ) i: 0; j: 20
+b(x) i: 10; j: 10
+c( ) i: 1; j: 19
+d( ) i: 20; j: 0
+e( ) O código não compila devido a repetição do sinal de soma e do sinal de subtração.
+
+A alternativa correta é a b pois o for irá ser executado 11 vezes. O valor de j é modificado antes de i. Dessa forma o valor de i e j a cada itereção será:
+
+1ª vez:
+    valor de i=0;
+    valor de j=19;
+2ª vez:
+    valor de i=1;
+    valor de j=18;
+3ª vez:
+    valor de i=2;
+    valor de j=17;
+4ª vez:
+    valor de i=3;
+    valor de j=16;
+5ª vez:
+    valor de i=4;
+    valor de j=15;
+6ª vez:
+    valor de i=5;
+    valor de j=14;
+7ª vez:
+    valor de i=6;
+    valor de j=13;
+8ª vez:
+    valor de i=7;
+    valor de j=12;
+9ª vez:
+    valor de i=8;
+    valor de j=11;
+10ª vez:
+    valor de i=9;
+    valor de j=10;
+11ª vez:
+    valor de i=10;
+    valor de j=10;
+

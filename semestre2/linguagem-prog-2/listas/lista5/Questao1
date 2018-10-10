@@ -1,0 +1,1 @@
+As variáveis de instância são variáveis que só existem para instacias de classe (objetos) e não para a Classe como um todo. Já as variáveis locais são variáveis que só são vistas pelo programa dentro do seu escopo. Ou seja, uma variável criada dentro de um método é uma variável local pois ela não será vista pela Classe toda e só será acessível dentro do método. 

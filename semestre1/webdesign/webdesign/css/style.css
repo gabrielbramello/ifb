@@ -1,0 +1,257 @@
+#titulo_menu{
+	font-size: 25px;
+}
+
+body{
+	font-family: "Arial", sans-serif;
+
+}
+
+header{
+	border-bottom: 1px solid black;
+	height: 80px;
+	position: relative;
+}
+
+
+.logo_menu{
+	display: inline-block;
+	float: left;
+	position: absolute;
+	top: 10px;
+	left: 30px;
+}
+
+.navbar_menu{
+	display: inline-block;
+	float: right;
+	position: absolute;
+	left: 700px;
+}
+.menu_item{
+	display: inline-block;
+	padding: 30px 5px 20px 5px;
+	font-size: 20px;
+}
+
+.perfil{
+	position: relative;
+	background-color: #98F098;
+	height: 350px;
+}
+
+.avatar{
+	position: absolute;
+	width: 100px;
+	height: 200px;
+	right: 50%;
+	margin-top: 50px;
+}
+.avatar img{
+	position: absolute;
+	display: block;
+	border-radius: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 200px;
+	height: 200px;
+}
+
+.nome_perfil{
+	position: absolute;
+	display: inline-block;
+	width: 100%;
+	top: 70%;
+	text-align: center;
+}
+
+.nome_perfil h1{
+	font-size: 25px;
+}
+
+.descricao_perfil{
+	position: absolute;
+	width: 100%;
+	top: 70%;
+	margin-top: 50px;
+	text-align: center;
+}
+
+.depoimento{
+	position: relative;
+	display: inline-block;
+	float: left;
+	clear: right;
+	width: 60%;
+}
+
+.sobre_mim{
+	position: absolute;
+	padding: 20px;
+	border-right: 1px solid black;
+
+}
+
+.sobre_mim h1{
+	text-align: center;
+	background-color: #B0C4DE;
+	padding: 10px;
+	margin-top: 5px;
+	margin-bottom: 30px;
+}
+
+.sobre_mim p{
+	text-align: justify;
+	padding: 0px 50px 0px 50px;
+}
+
+.habilidades{
+	position: relative;
+	display: inline-block;
+	float: right;
+	clear: left;
+	width: 36%;
+	padding: 20px;
+}
+
+.skills h1{
+	text-align: center;
+	background-color: #B0C4DE;
+	padding: 10px;
+	margin-top: 5px;
+	margin-bottom: 30px;
+
+}
+
+.barra{
+	position: relative;
+	display: inline-block;
+	width: 400px;
+	height: 20px;
+	background-color: #777;
+}
+
+.html{
+	position: absolute;
+	height: 100%;
+	background-color: #add555;
+	animation: html-progress 8s;
+	animation-fill-mode: forwards;
+
+}
+
+.css{
+	position: absolute;
+	height: 100%;
+	background-color: #add555;
+	animation: css-progress 8s;
+	animation-fill-mode: forwards;
+
+}
+
+.javascript{
+	position: absolute;
+	height: 100%;
+	background-color: #add555;
+	animation: javascript-progress 8s;
+	animation-fill-mode: forwards;
+}
+
+.projetos{
+	position: relative;
+	top: 385px;
+	background-color: #98F098;
+	height: 500px;
+}
+.titulo_projeto{
+	position: absolute;
+	width: 95%;
+	height: 45px;
+	margin: 30px;
+	background-color: #B0C4DE;
+}
+.titulo_projeto h1{
+	text-align: center;
+	margin: 10px;
+}
+.galeria{
+	position: absolute;
+	top:25%;
+	left: 15%;
+	height: 30px;
+
+
+}
+.projeto_box{
+	display: inline-block;
+	float: left;
+	margin: 0px 30px 0px 30px;
+	width: 250px;
+	height:300px;
+	background-color: #777777;
+	border-radius: 10px;
+
+}
+
+.img_projeto img{
+	width: 130px;
+	height: 130px;
+	border-radius: 50%;
+	margin: 35px 25%;	
+}
+
+.projeto_box h1{
+	text-align: center;
+	font-size: 40px;
+	margin-top: 0px;
+}
+
+@keyframes html-progress{
+    0% { width: 0%; }
+    
+    100% { width: 100%}
+    
+}
+
+@keyframes css-progress{
+    0% { width: 0%; }
+    
+    100% { width: 80%}
+    
+}
+
+@keyframes javascript-progress{
+    0% { width: 0%; }
+    
+    100% { width: 50%}
+    
+}
+.skill_box{
+	position: relative;
+	display: block;
+	margin-bottom: 35px;
+}
+
+.skill_box h2{
+	font-size: 20px;
+}
+
+a:link{
+	text-decoration: none;
+	padding: 10px;
+	color: black;
+}
+
+a:visited{
+	color: black;
+}
+
+a:hover{
+	background-color: #DDDDDD;
+	border-radius: 3px;
+	color: #4caf50;
+}
+
+a:active{
+	color: black;
+}

@@ -1,0 +1,10 @@
+Questão 2)
+
+Resposta:
+
+b(x) dezena.
+c(x) centena.
+d(x) milhar.
+e(x) outro.
+
+Essas saídas seram apresentadas pois o valor atribuido a x=10. Sendo assim o switch vai direto para o case 10. Porém, os cases não possuem break, sendo assim, todos os cases abaixo do case 10 também serão apresetados. 

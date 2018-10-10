@@ -1,0 +1,5 @@
+Lista de exercício 1
+
+Questão 2)
+
+A resposta correta é a alternativa b. No início do código fonte foram criadas as variáveis inteiras x e y. Para x foi atribuída o valor de 2 e para y o valor de 4. Ao chegar na primeira estrutura condicional if, foi perguntado se x é menor que 3. Como essa condição é verdadeira os comandos dentro do condicional if foram executados. Logo após há if perguntado se y é maior que 5. Essa condição é falsa e portando não é executado o comando dentro dele. Em seguida a um comando else que é executado se o seu if correspondente for falso. Como o if correspondente a ele foi falso, o comando dentro dele foi executado. Sendo assim foi mostrado na saída "escreve dois". Abaixo há um else que é correspondente ao primeiro if. Como o primeiro if é verdadeiro o comando else não foi executado. 

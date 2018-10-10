@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+ <head>
+	<meta charset="UTF-8">
+	<title>Cabeçalho</title>
+	<link rel="stylesheet" type="text/css" href="estilo.css"/>
+	
+ </head>
+ <!--Nesta página existem várias tags novas
+ DIV: Cria uma divisão em blocos, assim pode-se organizar melhor os elementos na página.
+ HEADER: onde coloca-se todos os items da parte mais superior da página.
+ CLASS: criamos class para criar formataçoes específicas para as tags, assim podemos usar formataçoes diferentes mesmo em tags iguas.
+ NAV: tag que representa uma navegacao na pagina, nesta pagina existem items de menu para que seja possí	vel a navegação no site
+ -->
+	<body><!--corpo da página-->
+	
+		<header><!-- tag para criar um cabeçalho na página-->
+		
+			<div class="cabecalho"><!-- esta div cria uma bloco onde colocaremos todos os items do cabeçalho-->
+				<div class="imagem"><!--nesta div tem uma imagem-->
+					<img src="brasil.jpg"><!-- tag para colocar uma imagem na página-->
+				</div><!--fecha a div da imagem-->
+				
+				
+				<nav><!--iniciando uma parte de navegação da página-->
+					<ul class="menu_navegacao"><!--para criar menus é necessario colocá-los em um lista. ul é a tag que cria a lista no html. li é cada item da lista-->
+						<li class="item_do_menu"><!--item da lista (cada menu)-->
+							<a class="link" href="#">Futebol</a><!--item da lista (cada menu)-->
+						</li><!--fecha a tag do item da lista-->
+						<li class="item_do_menu"><!---->
+							<a class="link" href="#">Turismo</a><!--item da lista (cada menu)-->
+						</li><!--fecha a tag do item da lista-->
+						<li class="item_do_menu"><!---->
+							<a class="link" href="#">Cidades</a><!--item da lista (cada menu)-->
+						</li><!--fecha a tag do item da lista-->
+						<li class="item_do_menu"><!---->
+							<a class="link" href="#">Belezas</a><!--item da lista (cada menu)-->
+						</li><!--fecha a tag do item da lista-->
+					</ul><!--fecha a tag ul (listas)-->
+				</nav><!--fecha a tag nav-->
+			</div><!--fechar a div do cabecalho-->
+		</header><!--fecha a tag header-->
+	
+	<!--Restante da página-->
+	<!--section é a parte de uma página onde pode-s colocar texto, imagens, tabelas, entre outros-->	
+	
+	
+		<section class="texto_foto"><!--nesta tag tem uma imagem e um texto-->
+			<div class="hino"><!--classe que formata o texto abaixo-->
+				E o Sol da Liberdade em Raios Fúlgidos<br><!---->
+				Brilhou no Céu da Pátria neste Instante...
+			</div><!--fechamento da div do texto-->
+			<div class="imagem_sol"><!--div da imagem, classe imagem_sol para formatar a imagem-->
+				<img class="sol" src="sol.jpeg"><!--imagem do sol-->
+			</div><!--fecha a div da imagem-->
+		</section><!--fecha a tag section-->
+		
+		
+		<footer class="rodapé"><!--tag do rodapé, a parte mais inferior do site-->
+			&copy; Meu Site. Todos os direitos reservados.	<!-- &copy é o simbolo que aparece no rodapé-->
+		</footer><!--fecha a tag do rodapé-->
+	</body>
+</html>	
