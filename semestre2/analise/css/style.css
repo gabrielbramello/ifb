@@ -1,0 +1,18 @@
+#menu-principal{
+	list-style-type: none;
+	background-color: #245e37;
+	text-align: center;
+}
+#menu-principal li{
+	display: inline-block;
+	margin: 25px;
+}
+
+#menu-principal li a{
+	font-size: 20px;
+	color: #c1a13a;
+}
+#logo img{
+	width: 200px;
+}	
+

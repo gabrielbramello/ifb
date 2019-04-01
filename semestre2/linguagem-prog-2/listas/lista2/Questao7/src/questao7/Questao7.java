@@ -34,7 +34,7 @@ class Calcula{
         double potencia=1;
         
         for(int i=0; i<expoente; i++){
-            potencia*=base;
+            potencia=base*potencia;
         }
         return potencia;
     }
